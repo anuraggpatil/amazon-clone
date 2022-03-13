@@ -1,0 +1,25 @@
+.home{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home__background{
+    width: 100%;
+    z-index: -1;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0 ,1), rgba(0, 0, 0, 0));
+}
+
+.home__container{
+    position: relative;
+    margin-top: -20vw;
+}
+
+.home__row{
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
